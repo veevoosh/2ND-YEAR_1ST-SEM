@@ -1,0 +1,12 @@
+B@D-J0b_V33
+
+#6875B8 (blue nav bar and footer)
+
+#593060 (uzi violet)
+
+#2E1841 (DARKER uzi violet)
+
+#FFC30F (n yellow)
+
+<body style="background-image: url('https://i.imgur.com/915EJTO.png'); background-repeat: no-repeat; background-attachment: fixed;
+  background-size: cover;>

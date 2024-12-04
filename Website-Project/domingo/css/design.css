@@ -1,0 +1,615 @@
+/* Landing Page (Index) Design */
+.main-header {
+    position: relative;
+    display: inline-block;
+    background-color: #371D4C;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: -150px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    clear: left;
+    overflow: hidden;
+}
+
+.index-bg-pattern {
+    position: relative;
+    background-color: #2E1841;
+    background-image: url(https://i.imgur.com/915EJTO.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+    color: #fff;
+}
+
+.index-info-header {
+    position: relative;
+    text-align: center;
+    color: white
+}
+
+.index-info-body {
+    position: relative;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 300px;
+    color: white
+}
+
+.index-image {
+    position: relative;
+    width: 950px;
+    height: 700px;
+    margin-top: auto;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: auto;
+    clear: left;
+    border: 5px solid #2E1841;
+}
+
+/* Navigation Bar Design */
+
+.nav-logo-image{
+    float: left;
+    width: 248px;
+    height: 248px;
+    overflow: hidden;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #6875B8;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.topnav a:hover {
+    background-color: #FFC30F;
+    color: black;
+    
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: black;
+}
+
+.topnav-right {
+    float: right;
+}
+
+/* Search Bar Design */
+
+form.example input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    padding-bottom: 16px;
+    padding-left: 20px;
+}
+
+form.example button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background: #FFC30F;
+    color: black;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    padding-bottom: 16px;
+    position: relative;
+}
+
+form.example button:hover {
+    background-color: black;
+    color: #FFC30F;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Information Column Design */
+
+.info-column1{
+    background-color: #FFC30F;
+    float: right;
+    width: 10%;
+    text-align: center;
+    color: black;
+    margin-top: -185px;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info-column2{
+    background-color: #FFC30F;
+    float: right;
+    width: 10%;
+    text-align: center;
+    color: black;
+    margin-top: 500px;
+    margin-left: 20px;
+    margin-right: -170px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info-col-smol {
+    font-size: 10px;
+}
+
+.info-col-haha-funny {
+    text-decoration: none;
+    color: black;
+}
+
+/* Registration Page Design */
+
+.register-bg-pattern {
+    background-color: #2E1841;
+    background-image: url(https://i.imgur.com/915EJTO.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+    color: #fff;
+    position: relative;
+}
+
+.register-header {
+    position: relative;
+    display: inline-block;
+    background-color: #371D4C;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 335px;
+    padding-right: 325px;
+    clear: left;
+    overflow: hidden;
+}
+
+.register-label {
+    position: relative;
+    font-weight: bold;
+    color: white;
+    margin-left: 610px;
+}
+
+.fname, .lname, .email, .psword1, .psword2 {
+    position: relative;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.register-submit {
+    position: relative;
+    display: block;
+    margin-top: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #FFC30F;
+    color: black;
+    font-weight: bold;
+}
+
+.register-submit:hover {
+    background-color: black;
+    color: #FFC30F;
+}
+
+/* Registration Errors Design */
+
+.error-header {
+    position: relative;
+    display: block;
+    background-color: #371D4C;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 80px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    clear: left;
+    overflow: hidden;
+}
+
+.error { 
+    position: relative;
+    display: block;
+    background-color: #FFC30F;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 8px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    clear: left;
+    overflow: hidden;
+}
+
+.error-footer {
+    position: relative;
+    display: block;
+    background-color: #371D4C;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: -25px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    clear: left;
+    overflow: hidden;
+}
+
+/* Registration Thanks Page Design */
+
+.register-thanks-bg-pattern {
+    position: relative;
+    background-color: #2E1841;
+    background-image: url(https://i.imgur.com/915EJTO.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+    color: #fff;
+}
+
+.register-thanks-header {
+    position: relative;
+    display: inline-block;
+    background-color: #371D4C;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: -150px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 230px;
+    padding-right: 230px;
+    clear: left;
+    overflow: hidden;
+}
+
+.register-thanks-info-header {
+    position: relative;
+    text-align: center;
+    color: white
+}
+
+.register-thanks-info-body {
+    position: relative;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 300px;
+    color: white
+}
+
+.register-thanks-image {
+    position: relative;
+    width: 950px;
+    height: 700px;
+    margin-top: auto;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: auto;
+    clear: left;
+    border: 5px solid #2E1841;
+}
+
+/* View Registered Users Page Design */
+
+.view-users-bg-pattern {
+    background-color: #2E1841;
+    background-image: url(https://i.imgur.com/915EJTO.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+    color: #fff;
+    position: relative;
+}
+
+.main-users-header {
+    position: relative;
+    display: inline-block;
+    background-color: #371D4C;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    clear: left;
+    overflow: hidden;
+}
+
+.view-users-header {
+    font-weight: bold;
+    text-align: center;
+}
+
+.view-users-info-body {
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 250px;
+    color: white
+}
+
+.view-users-header {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Registered Users Table Design */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    border-color: white;
+    border-collapse: collapse;
+    background-color: #2E1841;
+}
+
+tr, td {
+    padding: 15px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #FFC30F;
+    color: black;
+}
+
+/* Footer Design */
+
+footer {
+    position: relative;
+    padding: 1px;
+    background-color: #6875B8;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 13px;
+}
+
+.footer-md-link {
+    color: white;
+}
+
+.footer-md-link:hover {
+    color: #FFC30F;
+}
+
+.footer-idiot-link {
+    color: white;
+}
+
+.footer-idiot-link:hover {
+    color: #FFC30F;
+}
+
+/* Delete / Edit Forms Function */
+
+#submit-yes {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #FFC30F;
+    color: black;
+    font-weight: bold;
+}
+
+#submit-yes:hover {
+    background-color: black;
+    color: #FFC30F;
+}
+
+#submit-no {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #FFC30F;
+    color: black;
+    font-weight: bold;
+}
+
+#submit-no:hover {
+    background-color: black;
+    color: #FFC30F;
+}
+
+/* Redirection Link for Delete / Edit Design */
+
+.redirect {
+    position: relative;
+    display: block;
+    background-color: #FFC30F;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 8px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    clear: left;
+    overflow: hidden;
+}
+
+.redirect-link {
+    text-decoration: underline;
+    color: #371D4C;
+}
+
+.redirect-link:hover {
+    color: white;
+}
+
+/* Delete / Edit Buttons Design */
+
+.btn_edit {
+    color: white;
+}
+
+.btn_edit:hover {
+    color: black;
+}
+
+.btn_delete {
+    color: white;
+}
+
+.btn_delete:hover {
+    color: black;
+}
+
+/* Admin Page Design */
+
+.admin-header {
+    position: relative;
+    display: inline-block;
+    background-color: #371D4C;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    clear: left;
+    overflow: hidden;
+}
+
+.admin-image {
+    position: relative;
+    width: 950px;
+    height: 700px;
+    margin-top: auto;
+    margin-bottom: 50px;
+    margin-left: 285px;
+    margin-right: auto;
+    clear: left;
+    border: 5px solid #2E1841;
+}
+
+/* Members Page Design */
+
+.member-header {
+    position: relative;
+    display: inline-block;
+    background-color: #371D4C;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: -150px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 180px;
+    padding-right: 180px;
+    clear: left;
+    overflow: hidden;
+}
+
+.member-info-body {
+    position: relative;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    color: white
+}
+
+/* Login Page Design */
+
+.login-header {
+    position: relative;
+    display: inline-block;
+    background-color: #371D4C;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 350px;
+    padding-right: 340px;
+    clear: left;
+    overflow: hidden;
+}
