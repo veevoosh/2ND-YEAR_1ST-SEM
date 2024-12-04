@@ -1,0 +1,10 @@
+Stan, 60, 0000, NOTaloser@gfalls.com, 123 456 7890
+Ford, 60, 6666, loser@gfalls.com, 123 456 7890
+Bill, 100, 8888, supremeoverlord@gfalls.com, 123 456 7890
+Fidd, 60, 7777, localhomelessguy@gfalls.com, 123 456 7890
+Dipper, 13, 4444, d1scog1rl@gfalls.com, 123 456 7890
+Mabel, 13, 3333, minigolfkween@gfalls.com, 123 456 7890
+Pacifica, 13, 1111, northwestdabest@gfalls.com, 123 456 7890
+Gideon, 10, 2222, cutelilguy@gfalls.com, 123 456 7890
+Wendy, 15, 5555, localc00lg1rl@gfalls.com, no thanks lol
+Soos, 18, 9999, dudestermeister@gfalls.com, 123 456 7890
